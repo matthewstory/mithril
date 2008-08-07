@@ -2,9 +2,15 @@
 
 Mithril - One Library to Rule Them All
 
-###############################################################
+################################################################
 
 Mithril - is a shiny silver metal which is both stronger and lighter than steel.
+
+	"Mithril! All folk desired it. It could be beaten like copper, 
+	and polished like glass; and the Dwarves could make of it a metal, 
+	light and yet harder than tempered steel. 
+	Its beauty was like to that of common silver, 
+	but the beauty of mithril did not tarnish or grow dim."
 
 Mithril is a lightweight javascript utility library, designed to provide simple
 functionality for cross-browser scripting.  Mithril includes interfaces to
