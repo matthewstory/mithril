@@ -1,0 +1,26 @@
+################################################################
+
+Mithril - One Library to Rule Them All
+
+###############################################################
+
+Mithril - is a shiny silver metal which is both stronger and lighter than steel.
+
+Mithril is a lightweight javascript utility library, designed to provide simple
+functionality for cross-browser scripting.  Mithril includes interfaces to
+simplify the following commonly performed tasks:
+
+ - AJAX
+ - JSON
+ - DOM Traversal
+ - Event Handling
+ - Scoping
+ - Browser Detection
+ - Inheritance
+
+Mithril is designed to be a modular library, such that each of the above stated
+tasks can be used independent of one another.
+
+Mithril is an Open Source Project covered by the GNU Lesser Public License (read LICENSE).
+
+Better, Harder, Faster, Stronger.
