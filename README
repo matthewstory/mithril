@@ -19,7 +19,7 @@ simplify the following commonly performed tasks:
  - Inheritance
 
 Mithril is designed to be a modular library, such that each of the above stated
-tasks can be used independent of one another.
+tasks can be performed independent of one another.
 
 Mithril is an Open Source Project covered by the GNU Lesser Public License (read LICENSE).
 
