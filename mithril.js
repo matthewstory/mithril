@@ -83,14 +83,18 @@ Array.prototype.patch({
 	},
 	//takes an optional 2nd argument that will set the scope of (this) within func
 	each: function(func){for(var i=0;i<this.length;i++){func.apply((arguments[1] || this), [this[i], i]);}},
-	remove: function(element) {
-		var after = false;
-		for (var i=0;i<this.length;i++) {
-			this[i-1] = (after) ? this[i-1]:this[i];
-			after = (after || this[i] == element) ? true:false;
+	indexOf: function(elem) {
+		for (var i=0; i < this.length; i++) {
+			if (elem == this[i]) {
+				return i;
+			}
 		}
-		if (after) {
-			this.pop();
+		return -1;
+	},
+	remove: function(elem) {
+		var index = this.indexOf(elem);
+		if (index != -1) {
+			this.splice(index, 1);
 		}
 	}
 });
